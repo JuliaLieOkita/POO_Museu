@@ -28,7 +28,7 @@ import javafx.scene.layout.Priority;
 import javafx.stage.Stage;
 
 
-public class ColaboradorBoundary extends CommandProducer implements StrategyBoundary {
+public class ColaboradorBoundary implements StrategyBoundary {
 	
 	private TextField tfId = new TextField();
 	private TextField tfNomeInstituicao = new TextField();

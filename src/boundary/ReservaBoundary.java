@@ -31,7 +31,7 @@ import javafx.scene.layout.Pane;
 import javafx.scene.layout.Priority;
 
 
-public class ReservaBoundary extends CommandProducer implements StrategyBoundary {
+public class ReservaBoundary implements StrategyBoundary {
 	
 	private TextField tfId = new TextField();
 	private TextField tfNome = new TextField();
@@ -56,7 +56,6 @@ public class ReservaBoundary extends CommandProducer implements StrategyBoundary
 	private TableView<Reserva> table = new TableView<>();
 	
 	private DateTimeFormatter dateFormatter = DateTimeFormatter.ofPattern("dd/MM/yyyy");
-	   	
 	
 	private void criarTabela() {
 		

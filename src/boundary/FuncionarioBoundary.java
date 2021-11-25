@@ -26,7 +26,7 @@ import javafx.scene.layout.Pane;
 import javafx.scene.layout.Priority;
 
 
-public class FuncionarioBoundary extends CommandProducer implements StrategyBoundary {
+public class FuncionarioBoundary implements StrategyBoundary {
 
 	private TextField tfId = new TextField();
 	private TextField tfNome = new TextField();

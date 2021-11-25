@@ -26,7 +26,7 @@ import javafx.scene.layout.Priority;
 import javafx.stage.Stage;
 
 
-public class ArteBoundary extends CommandProducer implements StrategyBoundary {
+public class ArteBoundary implements StrategyBoundary {
 	
 	private TextField tfId = new TextField();
 	private TextField tfNomeObra = new TextField();
